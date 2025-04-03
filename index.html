@@ -9,9 +9,13 @@
 <body>
     <header>
         <div class="container">
+            <div class="logo">
+                <img src="./images/M CANVA.png" alt="Logo">
+            </div>
             <h1>My Portfolio</h1>
             <nav>
                 <ul>
+                    <li><a href="#intro">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#education">Education</a></li>
@@ -22,13 +26,26 @@
         </div>
     </header>
 
+    <section id="intro">
+        <div class="container">
+            <div class="profile">
+                <img src="./images/WhatsApp Image 2025-04-01 at 15.26.29_a8df74bf.jpg" alt="Profile Picture">
+                <div class="bio">
+                    <h2>I AM Maryam Adan</h2>
+                    <p>Software Developer | Prominent in Backend Development | UI/UX Enthusiast</p>
+                    <button><a href="#contact">Contact Me</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="about">
         <div class="container">
             <div class="profile">
                 <img src="./images/WhatsApp Image 2025-04-01 at 15.26.29_a8df74bf.jpg" alt="Profile Picture">
                 <div class="bio">
                     <h2>About Me</h2>
-                    <p>I'm a passionate developer focused on building solutions that impact lives. I enjoy working with emerging technologies and love the creative aspect of coding.</p>
+                    <p>I am a passionate and detail-oriented backend developer with a deep understanding of software development principles. My expertise lies in designing scalable and efficient backend systems that power modern web applications. With strong problem-solving skills and a dedication to high-quality coding, I ensure seamless functionality and performance in every project. I am proficient in multiple programming languages, frameworks, and database technologies. My goal is to contribute innovative solutions and optimize systems to deliver the best user experience.</p>
                 </div>
             </div>
         </div>
@@ -36,12 +53,11 @@
 
     <section id="skills">
         <div class="container">
-            <h2>Programming Languages</h2>
-            <ul>
+            <h3>Programming Languages</h3>
+            <ul class="skills">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-            
                 <li>Python</li>
                 <li>C++</li>
                 <li>Java</li>
@@ -52,11 +68,11 @@
     <section id="education">
         <div class="container">
             <h2>Educational Background</h2>
-            <p>Software engineering , <br> PLP,  ONGOING </p>
-            <p>Certificate in Software Development<br> Strathmore University</p>
-            <p>Diploma in Information Tecnology <br> Jomo Kenyatta University</p>
-            <p>Secondary Education <br> Mama Ngina highschool</p>
-            <p>Primary Education<br>Alfarsy Academy</p>
+            <p>Software Engineering - PLP (Ongoing)</p>
+            <p>Certificate in Software Development - Strathmore University</p>
+            <p>Diploma in Information Technology - Jomo Kenyatta University</p>
+            <p>Secondary Education - Mama Ngina High School</p>
+            <p>Primary Education - Alfarsy Academy</p>
             <a href="./images/White Blue Elegant Minimalist Architect Resume CV A4 Printable.pdf" download>Download CV</a>
         </div>
     </section>
@@ -65,7 +81,7 @@
         <div class="container">
             <h2>Projects</h2>
             <div class="project">
-                <h3>Project Name</h3>
+                
                 <p>Description of the project.</p>
                 <a href="projects">View Project</a>
             </div>
@@ -74,7 +90,7 @@
 
     <section id="contact">
         <div class="container">
-            <h2>Contact Me</h2>
+            <h4>Contact Me</h4>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -85,7 +101,7 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
 
-                <button type="submit">Send</button>
+                <button type="submit">Send:</button>
             </form>
         </div>
     </section>
