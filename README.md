@@ -28,11 +28,7 @@ It serves as a digital resume and showcases my skills, selected projects,  About
 
 ---
 my live demo:https://marish-meys.github.io/my_Portfolio/
-## 🚧 Getting Started
 
-Follow these simple steps to run the website locally:
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+
 
